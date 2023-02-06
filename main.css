@@ -1,0 +1,42 @@
+body {
+    background: rgb(40, 40, 43);
+    color: white;
+}
+
+#header{
+    position:fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+#footer{
+    position:fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+#notices{
+    margin-top: 5em;
+    text-align: center;
+    color: green;
+    text-shadow: 10px;
+}
+
+#form{
+    margin-top: 3em;
+    padding-left: 20em;
+}
+
+#getForms{
+    color: white;
+    background-color: orangered;
+    padding: 1em;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERS Forms</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<header id="header">
+    <p>HERS Form Generator</p>
+</header>
+
+<body>
+    <div id="notices">
+        <p>
+            Currently this program only supports Western Regions in Ekotrope registered with an EI login.
+        </p>
+        <p>Arizona</p>
+    </div>
+    
+    <form action="" id="form">
+        <label for="layout">Select Form</label><br>
+        <select id="layout">
+            <option value="hers">HERS Forms</option>
+        </select>
+        <br><br>
+
+        <label for="start">Enter Start Date</label><br>
+        <input type="date" id="start" min="2020-01-01">
+        <br><br>
+
+        <label for="end">Enter End Date</label><br>
+        <input type="date" id="end" min="2020-01-01">
+        <br><br>
+
+        <label for="state">Choose State</label><br>
+        <select id="state">
+            <option value="AZ" selected>Arizona</option>
+        </select>
+        <br><br>
+
+        <label for="builder">Leave as All Builders</label><br>
+        <select id="builder">
+            <option value="allbuilders" selected>All Builders</option>
+        </select>
+        <br><br>
+        <br><br>
+
+        <button id="getForms">Generate Forms</button>
+    </form>
+
+    <script src="mvp.js"></script>
+</body>
+
+<footer id="footer">
+    <p>Website Created by Matthew Mooney 2023&copy</p>
+</footer>
+</html>
